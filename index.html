@@ -341,16 +341,16 @@
                 </p>
                 <div class="row aboutData BasicAnimation">
                     <div class="col-md-6 ">
-                        <i class="fas fa-signature mb-3">Name:Noe Noe Win Kyaw</i>
-                        <i class="fas fa-certificate mb-3">Degree: Bachelor</i>
-                        <i class="fas fa-phone mb-3">Phone:+8190477325255</i>
-                        <i class="fas fa-location-pin mb-3">Address: No.102, Adachi-ku, Tokyo, Japan</i>
+                        <span class="fas fa-signature mb-3">Name:Noe Noe Win Kyaw</span>
+                        <span class="fas fa-certificate mb-3">Degree: Bachelor</span>
+                        <span class="fas fa-phone mb-3">Phone:+8190477325255</span>
+                        <span class="fas fa-location-pin mb-3">Address: No.102, Adachi-ku, Tokyo, Japan</span>
                     </div>
                     <div class="col-md-6">
-                        <i class="fas fa-cake-candles mb-3">Birthday:1 June 1995</i>
-                        <i class="fas fa-certificate mb-3">Experience: 5years</i>
-                        <i class="fas fa-envelope mb-3">Email:noenoewinkyaw@gmail.com</i>
-                        <i class="fas fa-address-card mb-3">Freelance: Avaliable</i>
+                        <span class="fas fa-cake-candles mb-3">Birthday:1 June 1995</span>
+                        <span class="fas fa-certificate mb-3">Experience: 4years</span>
+                        <span class="fas fa-envelope mb-3">Email:noenoewinkyaw@gmail.com</span>
+                        <span class="fas fa-address-card mb-3">Freelance: Avaliable</span>
                     </div>
                 </div>
             </div>
@@ -737,7 +737,7 @@
                     let eTopPosition = e.offset().top;
                     //console.log(eTopPosition);
 
-                    if(winTop > eTopPosition - 600){
+                    if(winTop > eTopPosition - 700){
                         e.addClass('Slide');   
                         showProgress();
                     
@@ -751,7 +751,7 @@
             $('.navbar-collapse').collapse('hide');
         });
         
-        $('.navbar-toggler').on('click', function hidden(){
+        $('.navbar-toggler').on('click', function  (){
             document.getElementById('hireBtn').style.visibility = 'hidden';
         });
 
